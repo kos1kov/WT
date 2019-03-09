@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: AvenirNextCyr, sans-serif;
+}
+
+.header_inner{
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 75px;
+    border-bottom: 4px solid gray; 
+}
+.head_logo{
+    font-size: 24px;
+    float:left;
+    color: #e2001a;
+    padding-top:30px;
+    text-align: center;
+    width: 180px;
+    font-family: Comfortaa;
+    font-weight:bold; 
+}
+.head_logo:hover{
+    background-color: black;
+    color:white;
+    height: 100%;
+}
+
+.navigator .header_menu>li {
+    float: left;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 75px;
+    list-style: none;
+
+}
+.navigator .header_menu>li>a{
+    color: #4a4a4a;
+    height: 75px;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: Comfortaa;
+    font-weight:bold; 
+    text-transform: uppercase;
+}
+.navigator .header_menu>li{
+    cursor: pointer;
+}
+.navigator .header_menu>li:hover{
+    background-color: red;
+}
+.navigator .header_menu>li:hover a{
+    color:white;
+    font-size: 15px;
+}
+.navigator .header_menu .header_text{
+    padding-top:32px;
+}
+.navigator{
+    float: right;
+}
+.main-page-wrapper{
+    height: 100%;
+    padding: 0 2rem;
+    background-color: #fff;
+}
+.promo-media-table{
+    margin-bottom: 4.8rem;
+    padding-top: 20px;
+}
+.promo-media-row{
+    display: -webkit-flex; 
+    -webkit-justify-content: center;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.promo-media-row1{
+    width: 50%;
+    padding: .7rem;
+    
+}
+.promo-item {
+   width: 550px; 
+   height: 292px;
+   background-size: cover; 
+   display: block;
+   margin: 0 auto; 
+   position: relative;
+   
+}
+.promo-item:hover {
+    background-size: 105%; 
+}
+.promo-item .promo-item-text{
+    width: 50%; 
+}
+.promo-item-text{
+    position: absolute;
+    left: 10px;
+    right: 20px;
+    bottom: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .8);
+}
+.promo-item-title {
+    font-size: 15px;
+    font: inherit;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.071428571428571rem;
+    line-height: 18px;
+}
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    font-weight: bold;
+    opacity: 0.5;
+}
