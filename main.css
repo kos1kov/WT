@@ -8,6 +8,7 @@ body{
 A {
     text-decoration: none; 
    } 
+
 .header_inner{
     background-color: white;
     position: relative;
@@ -67,7 +68,7 @@ A {
     float: right;
 }
 .main-page-wrapper{
-    height: 100%;
+   
     padding: 0 2rem;
     background-color: #fff;
 }
@@ -86,7 +87,8 @@ A {
 
 .promo-media-row1{
     width: 50%;
-    padding: .7rem;
+    padding: 0.5rem;
+    
     
 }
 .promo-item {
@@ -128,4 +130,23 @@ h1{
     margin-block-end: 0.67em;
     font-weight: bold;
     opacity: 0.5;
+}
+
+p{
+    line-height: 1.3em;
+    font-size: .9em;
+}
+.describe{
+    padding: 1em;
+}
+.footer {
+    background-color: gray;
+    padding-bottom: 0;
+    padding: 1.625rem ; 
+    text-align: center;
+}
+@media screen and (max-width: 1120px){
+    .promo-item {
+        width: 400px;  
+     }
 }

@@ -140,10 +140,59 @@ A {
     font-weight: bold;
     font-family: 'Raleway', 'Lato', Arial, sans-serif;
 }
- 
+.footer {
+    background-color: gray;
+    padding-bottom: 0;
+    padding: 1.625rem ; 
+    text-align: center;
+}
 
 @media screen and (max-width: 768px){
     .collumn-desct {
         display: none ;
     }
 }
+
+@media screen and (max-width: 600px){
+        
+        .navigator .header_menu>li>a{
+            font-size: 8px;
+        }
+        .head_logo{
+            font-size: 15px;
+            float:left;
+            color: #e2001a;
+            padding-top:30px;
+            text-align: center;
+            width: 120px;
+            font-family: Comfortaa;
+            font-weight:bold; 
+    }
+}
+@media screen and (max-width: 430px){
+        .collumn-main h2{
+            font-size: 3em;
+        }
+       .navigator .header_menu>li>a{
+           font-size: 8px;
+       }
+       .head_logo{
+           font-size: 15px;
+           float:left;
+           color: #e2001a;
+           padding-top:30px;
+           text-align: center;
+           width: 120px;
+           font-family: Comfortaa;
+           font-weight:bold; 
+       }
+       .navigator .header_menu > li {
+        float: left;
+        padding-left: 0px;
+        padding-right: 20px;
+        height: 50px;
+        list-style: none;
+    }
+      
+}
+    

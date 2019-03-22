@@ -66,44 +66,38 @@ A {
 .navigator{
     float: right;
 }
-.product-container{
- display: -webkit-flex; 
- -webkit-flex-wrap: wrap;
- display: flex;
- flex-wrap: wrap;
- justify-content: center;
- flex-direction: row;
- background-image:url(footerBackground.png);
+.page-main{
+    background-image:url(footerBackground.png);
+    font-family: Comfortaa;
+}
 
+.page-main-title{
+    width: auto;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 16px;
+    font-size: 36px;
 }
-.column{
-    padding-top: 2em;
-    padding-bottom: 0px;
-    padding-left: 1em;
-    padding-right: 1em;
-
-  
-    width: 25%;
-
+.news-item {
+    display: flex;
+    position: relative;
+    padding: 1em;
+    overflow: hidden;
+    margin-top: 10px;
+    height: 22%;
+    -webkit-box-shadow: 0 0 7px 0 rgba(182, 182, 182, 0.9);
+    box-shadow: 0 0 7px 0 rgba(182, 182, 182, 0.9);
+    border-radius: 7px;
 }
-.image-container{
-    margin: 0%;
-    width: 100%;
-   
-   position: relative;
-   
+.news-item img{
+    width: 20%;
+    min-width: 140px;
 }
-.image-container img{
-    border: 3px solid black;
-    width: 100%;
-    
+.container{
+    padding: 2em;
 }
-.price{
-    padding-top: 10PX;
-    text-align: center;
-}
-.product-class{
-    font-weight: 900;
+h3 {
+    font-size: 1.17em;
 }
 .footer {
     background-color: gray;
@@ -112,7 +106,9 @@ A {
     text-align: center;
 }
 @media screen and (max-width: 600px){
-        
+    h3 {
+        font-size: 1em;
+    }  
     .navigator .header_menu>li>a{
         font-size: 8px;
     }
@@ -125,6 +121,9 @@ A {
         width: 120px;
         font-family: Comfortaa;
         font-weight:bold; 
+}
+.news-item img {
+    width: 140px;
 }
 }
 @media screen and (max-width: 430px){
@@ -153,3 +152,4 @@ A {
 }
   
 }
+
